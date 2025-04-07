@@ -1,0 +1,6 @@
+import time
+import board
+import digitalio
+import adafruit_character_lcd.character as character_lcd
+
+lcsrs = digitalio.DigitalInOut(board.D25)
